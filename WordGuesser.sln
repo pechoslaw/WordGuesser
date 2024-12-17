@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{7179C2C3-0F4B-4D7D-9A36-19E9A16113EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F2F5D461-96BB-478E-A467-C5A15B8AFCE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{22CD63F7-3E39-46E6-B785-2AD6C6DD8ADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGuesser.Api", "Api\WordGuesser.Api.csproj", "{B9344EB5-9100-4D91-AE69-38C927B50110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGuesser.Core.Domain", "Modules\Domain\WordGuesser.Core.Domain.csproj", "{233F2EED-C27F-4BC8-A96C-795013773617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGuesser.Core.Application", "Modules\Application\WordGuesser.Core.Application.csproj", "{B9A490D5-9EA5-4ECB-A661-2613103A4A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGuesser.Core.Infrastructure", "Modules\Infrastructure\WordGuesser.Core.Infrastructure.csproj", "{CAD899DD-2757-4E77-A38A-1270714E3ECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9344EB5-9100-4D91-AE69-38C927B50110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9344EB5-9100-4D91-AE69-38C927B50110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9344EB5-9100-4D91-AE69-38C927B50110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9344EB5-9100-4D91-AE69-38C927B50110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233F2EED-C27F-4BC8-A96C-795013773617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233F2EED-C27F-4BC8-A96C-795013773617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233F2EED-C27F-4BC8-A96C-795013773617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233F2EED-C27F-4BC8-A96C-795013773617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A490D5-9EA5-4ECB-A661-2613103A4A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A490D5-9EA5-4ECB-A661-2613103A4A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A490D5-9EA5-4ECB-A661-2613103A4A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A490D5-9EA5-4ECB-A661-2613103A4A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD899DD-2757-4E77-A38A-1270714E3ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD899DD-2757-4E77-A38A-1270714E3ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD899DD-2757-4E77-A38A-1270714E3ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD899DD-2757-4E77-A38A-1270714E3ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22CD63F7-3E39-46E6-B785-2AD6C6DD8ADF} = {F2F5D461-96BB-478E-A467-C5A15B8AFCE2}
+		{B9344EB5-9100-4D91-AE69-38C927B50110} = {7179C2C3-0F4B-4D7D-9A36-19E9A16113EB}
+		{233F2EED-C27F-4BC8-A96C-795013773617} = {22CD63F7-3E39-46E6-B785-2AD6C6DD8ADF}
+		{B9A490D5-9EA5-4ECB-A661-2613103A4A7E} = {22CD63F7-3E39-46E6-B785-2AD6C6DD8ADF}
+		{CAD899DD-2757-4E77-A38A-1270714E3ECA} = {22CD63F7-3E39-46E6-B785-2AD6C6DD8ADF}
+	EndGlobalSection
+EndGlobal
